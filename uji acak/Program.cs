@@ -15,6 +15,11 @@ namespace uji_acak
             double b1 = ac1.NextDouble();
            // Console.WriteLine(b1);// <--- number from 0 to 1.0
             Console.WriteLine(b1*100);
+            Console.WriteLine((float)b1 * 100F);
+            // Console.WriteLine((float)b1 * 100M); /// <---WRONG 
+            Console.WriteLine((decimal)b1 * 100M);
+
+
         }
     }
 }
